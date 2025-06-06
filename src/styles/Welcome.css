@@ -1,0 +1,80 @@
+/* ===== Fonts ===== */
+@font-face {
+  font-family: 'Instrument Sans';
+  src: url('../../public/fonts/InstrumentSans-VariableFont_wdth,wght.ttf') format('truetype');
+  font-weight: 100 900;
+}
+
+@font-face {
+  font-family: 'Instrument Sans';
+  src: url('../../public/fonts/InstrumentSans-Italic-VariableFont_wdth,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+}
+
+.Welcome {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* ===== Base Styles ===== */
+:root {
+  --font-main: 'Instrument Sans', sans-serif;
+  --light: #fbf3ff;
+  --dark: #1b1b3a;
+  --accent: #43115b;
+  --bg: #e0a8f8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-main);
+  background: var(--bg);
+  color: var(--dark);
+  padding: 20px;
+}
+
+/* ===== Headings & Buttons ===== */
+h1 {
+  font-size: 74px;
+  font-weight: 700;
+  text-align: center;
+  background: var(--light);
+  padding: 10px 30px;
+  border: none;
+  border-radius: 20px;
+}
+button {
+  background: var(--accent);
+  color: var(--light);
+  font-size: 60px;
+  font-weight: 700;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+  margin-top: 60px;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  button {
+    font-size: 30px;
+    width: 100%;
+  }
+}
