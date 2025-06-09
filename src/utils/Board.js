@@ -105,7 +105,11 @@ export default class Board{
     }
 
     getBoard(){
-        return this.#board;
+        return [...this.#board];
+    }
+
+    setBoard(given_board){
+        this.#board  = given_board;
     }
 }
 

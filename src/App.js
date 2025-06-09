@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Game, Welcome, NoPage } from './pages';
+import { Game, Welcome, TryAgain, NoPage } from './pages';
 
 export default function App() {
     return (
@@ -8,6 +8,7 @@ export default function App() {
                 <Route index element={<Welcome />} />
                 <Route path="/game" element={<Game />} />
                 <Route path="/login" element={<Welcome />} />
+                <Route path="/retry" element={<TryAgain />} />
                 <Route path="*" element={<NoPage />} />
             </Routes>
         </BrowserRouter>
