@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.5fa54c66.css",
-    "main.js": "/static/js/main.5c21695b.js",
-    "static/js/453.e036e8b5.chunk.js": "/static/js/453.e036e8b5.chunk.js",
-    "static/media/InstrumentSans-Italic-VariableFont_wdth,wght.ttf": "/static/media/InstrumentSans-Italic-VariableFont_wdth,wght.d194981ef57939c89f2c.ttf",
-    "static/media/InstrumentSans-VariableFont_wdth,wght.ttf": "/static/media/InstrumentSans-VariableFont_wdth,wght.5c6b1c98a459092ff67d.ttf",
-    "index.html": "/index.html",
-    "main.5fa54c66.css.map": "/static/css/main.5fa54c66.css.map",
-    "main.5c21695b.js.map": "/static/js/main.5c21695b.js.map",
-    "453.e036e8b5.chunk.js.map": "/static/js/453.e036e8b5.chunk.js.map"
+    "main.css": "/TicTacToe-Website/static/css/main.250da5af.css",
+    "main.js": "/TicTacToe-Website/static/js/main.b8ffaf2c.js",
+    "static/js/453.e036e8b5.chunk.js": "/TicTacToe-Website/static/js/453.e036e8b5.chunk.js",
+    "static/media/InstrumentSans-Italic-VariableFont_wdth,wght.ttf": "/TicTacToe-Website/static/media/InstrumentSans-Italic-VariableFont_wdth,wght.d194981ef57939c89f2c.ttf",
+    "static/media/InstrumentSans-VariableFont_wdth,wght.ttf": "/TicTacToe-Website/static/media/InstrumentSans-VariableFont_wdth,wght.5c6b1c98a459092ff67d.ttf",
+    "index.html": "/TicTacToe-Website/index.html",
+    "main.250da5af.css.map": "/TicTacToe-Website/static/css/main.250da5af.css.map",
+    "main.b8ffaf2c.js.map": "/TicTacToe-Website/static/js/main.b8ffaf2c.js.map",
+    "453.e036e8b5.chunk.js.map": "/TicTacToe-Website/static/js/453.e036e8b5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5fa54c66.css",
-    "static/js/main.5c21695b.js"
+    "static/css/main.250da5af.css",
+    "static/js/main.b8ffaf2c.js"
   ]
 }
