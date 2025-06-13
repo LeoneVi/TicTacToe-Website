@@ -49,6 +49,5 @@
     "jest": "^27.5.1",
     "react-test-renderer": "^19.1.0"
   },
-  "homepage": "https://LeoneVi.github.io"
-
+  "homepage": "https://leonevi.github.io/TicTacToe-Website"
 }

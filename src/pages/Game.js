@@ -3,7 +3,14 @@ import {useEffect, useState} from "react";
 import {useNavigate} from "react-router-dom";
 import Board from '../utils/Board.js';
 
-
+/*
+Issues I need to fix:
+- Add accesibility features.
+- When the game is finished, the grid moves slightly down. Everything in the website should be stagnant.
+- Add different color to button and grid when hovering over it.
+What I need to do:
+- Use xcode to few the website on mobile, ensure the layout is ok.
+ */
 export default function Game() {
 
     const len = 3;

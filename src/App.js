@@ -6,8 +6,8 @@ export default function App() {
         <BrowserRouter>
             <Routes>
                 <Route index element={<Welcome />} />
+                <Route path="/TicTacToe-Website" element={<Welcome />} />
                 <Route path="/game" element={<Game />} />
-                <Route path="/login" element={<Welcome />} />
                 <Route path="/retry" element={<TryAgain />} />
                 <Route path="*" element={<NoPage />} />
             </Routes>
