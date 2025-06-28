@@ -1,5 +1,5 @@
 import assert from 'assert';
-import Board from '../utils/Board.js';
+import Board from './Board.js';
 
 describe('getPlayerSymbol', () => {
     test('returns the correct symbol for player one and player two', () => {

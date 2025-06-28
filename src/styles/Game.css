@@ -25,10 +25,10 @@
     --font-main: 'Instrument Sans', sans-serif;
     --light: #fbf3ff;
     --dark: #1b1b3a;
-    --accent: #43115b;
+    --accent: #43115B;
     --bg: #e0a8f8;
     --outer-grid: #2B0040;
-    --inner-grid: #43115B
+    --grid-hover: #350D48;
 }
 
 * {
@@ -71,6 +71,20 @@ button {
     margin-top: 60px;
 }
 
+button:hover {
+    background: var(--outer-grid);
+    color: var(--light);
+    font-size: 60px;
+    font-weight: 700;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    margin-top: 60px;
+}
+
 .container {
     display: grid;
     grid-template-columns: repeat(3, 190px);
@@ -84,7 +98,7 @@ button {
 }
 
 .container > div {
-    background-color: var(--inner-grid);
+    background-color: var(--accent);
     border: 5px var(--outer-grid) solid;
     font-size: 90px;
     display: flex;
@@ -92,7 +106,10 @@ button {
     justify-content: center;
 }
 
-
+.container > div:hover {
+    background-color: var(--grid-hover);
+    cursor: pointer;
+}
 
 /* ===== Responsive ===== */
 @media (max-width: 768px) {
